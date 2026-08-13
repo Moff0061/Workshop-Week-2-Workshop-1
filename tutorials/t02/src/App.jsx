@@ -11,7 +11,6 @@ function App() {
     <PlayerProfile />
 
     </>
-  )
 }
 
 export default App
