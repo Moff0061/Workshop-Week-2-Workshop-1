@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './styles.css'
 import PlayerProfile from './components/PlayerProfile.jsx'
+import './App.css'
 
 function App() {
+
+  return (
     <>
-
-    <PlayerProfile />
-
+      <PlayerProfile />
     </>
+  )
 }
 
-export default App
+export default App;
