@@ -1,6 +1,6 @@
-
 import { useState } from 'react';
 import { getPlayerRank } from '../untils/gameLogic';
+import  PlayerStats  from '../components/PlayerStats';
 
 function PlayerProfile() {
     ///const player = { username: "PixelPioneer", level: 5, active: true };
@@ -25,6 +25,7 @@ function PlayerProfile() {
         <button onClick={handleLevelUp}>Gain XP</button>
         {active ? <p>Status: Online</p> : <p>Status: Offline</p>}
     </div>
+    <PlayerStats />
     </>
 );
 }
