@@ -1,5 +1,5 @@
 import PlayerProfile from './components/PlayerProfile.jsx'
-import './App.css'
+import './styles.css'
 
 function App() {
 
