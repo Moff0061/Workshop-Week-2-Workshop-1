@@ -3,31 +3,31 @@
 
 ## Proof of Completion
 
-**[
-  ![Image Alt Text](./path/URL/to/image) 
-  ![Image Alt Text](./path/URL/to/image) 
-]**
 
-*(Images should be given appropriate names and captions. They should be stored in the `fann1234/tutorials/imgs/` folder.)*
+  ![the basics of the webpage setup](/tutorials/reflections/img/base.png) 
+
+  This shows the successfull completion of the tutorial up to part 4, this involved the use of .map and ids to help display the content on the website.
+
+  ![Image Alt Text](./path/URL/to/image) 
 
 **Extension task completed successfully:** [No]
-
-
-**Briefly describe what is happening in the media:**  
-*(e.g., "This shows the Express route successfully validating the user input and returning a 201 status code.")*
 
 ## Concept Mapping
 
 Identify the specific theoretical concepts from this week’s lectures that you applied to solve the practical work for this week.
 
-- **Concept 1:** [Lecture slide number] — [Concept description in your own words]
-  - **Implementation:** [How it was implemented (i.e., include a code snippet)]
-- **Concept 2:** [Lecture slide number] — [Concept description in your own words]
-  - **Implementation:** [How it was implemented (i.e., include a code snippet)]
+- **Concept 1:** [21] The parent app.jsx is basically handing down info to each CourseModule like title={module.title} and description={module.description}
+
+  \<div>
+  {moduleData.map((module) => (
+        \<CourseModule key={module.id} title={module.title} description={module.description} />
+    ))}
+    \</div>
+    </>
+  )
 
 ## Analysis and Implications
 
-In 2-3 sentences, reflect on the implications of AI assistance that you received this week. Consider academic integrity, security, or whether the AI obscured your understanding of the core concept.
+I didn't use ai, I considered using it for part 5 but chose not to as I dislike the use of it and feel like it causes me not to grasp things correctly. I feel satisfied with the use of 
 
-**Reflection:**  
-[Write your reflection here]
+
