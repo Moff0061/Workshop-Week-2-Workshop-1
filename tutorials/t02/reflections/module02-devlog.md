@@ -21,6 +21,9 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 **[Insert media here]**
 
 *(Images should be given appropriate names and captions. They should be stored in the `fann1234/tutorials/imgs/` folder.)*
+
+![First output in the website before interaction](./workspace/tutorials/t02/reflections/img/before-int.png) 
+
 <!-- 
 to add an image to your doc use a markdown tag in the following structure
 ![Image Alt Text](./path/URL/to/image) 
