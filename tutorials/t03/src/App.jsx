@@ -1,11 +1,11 @@
-import { Header } from './components/Header.jsx'
+import Header from './components/Header.jsx'
 
 function App() {
 
   return (
     <>
     <Header/>
-      <div>hi</div>
+      <div></div>
     </>
   )
 }
