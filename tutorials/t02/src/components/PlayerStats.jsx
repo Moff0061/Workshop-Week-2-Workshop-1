@@ -1,41 +1,35 @@
 import { useState } from 'react';
 
 function PlayerStats() {
-  const [stats, setStats] = useState({
-    health: 100,
-    gold: 0,
-  }); /// state object initializerrr
+    ///const stats = { health: 100, gold: 0 };
+    const [stats, setStats] = useState({
+        health: 100,
+        gold: 0
+    });
+    const { health, gold } = stats;
 
-  const { health, gold } = stats; 
+    const takeDamage = () => {
+        const updatedStats = { ...stats, health: health - 20 };
+        setStats(updatedStats);
+    };
 
-  const takeDamage = () => {
-    setStats((prevStats) => ({
-      ...prevStats,
-      health: prevStats.health - 20,
-    }));
-  };
+    const findLoot = () => {
+        const updatedStats = { ...stats, gold: gold + 10 };
+        setStats(updatedStats);
+    };
 
-  const findLoot = () => {
-    setStats((prevStats) => ({
-      ...prevStats,
-      gold: prevStats.gold + 10,
-    }));
-  };
-
-  return (
+    return (
     <>
-      <h2>Player Stats</h2>
-      <p>Health: {health}</p>
-      <p>Gold: {gold}</p>
-      <button onClick={takeDamage}>Take Damage</button>
-      <button onClick={findLoot}>Find Loot</button>
-      {health <= 40 ? (
-        <p>Warning: Low Health!</p>
-      ) : (
-        <p>Status: Healthy</p>
-      )}
+    <div className="stats-card">
+        <h2>Player Stats</h2>
+        <p>Health: {health}</p>
+        <p>Gold: {gold}</p>
+        <button onClick={takeDamage}>Take Damage</button>
+        <button onClick={findLoot}>Find Loot</button>
+        {health <= 40 ? <p>Warning: Low Health!</p> : <p>Status: Healthy</p>}
+    </div>
     </>
-  );
+);
 }
 
 export default PlayerStats;
