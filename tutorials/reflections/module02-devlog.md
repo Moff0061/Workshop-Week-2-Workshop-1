@@ -4,13 +4,13 @@
 
 This is the first output from the code I created, this shows that everything displays correctly, we can compare this to the next screenshot to prove that all the functions work correctly.
 
-![First output in the website before interaction](/tutorials/t02/reflections/img/before-int.png) 
+![First output in the website before interaction](/tutorials/reflections/img/before-int.png) 
 
 **---------------------------------------------------------------------------------------------------------------------**
 
 After clicking the buttons I had taken another screenshot here wich shows the level up, health and gold state objects.
 
-![after updated image after button presses](/tutorials/t02/reflections/img/after-int.png)
+![after updated image after button presses](/tutorials/reflections/img/after-int.png)
 
 **Extension task completed successfully:** [Yes]
 
